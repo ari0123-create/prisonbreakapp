@@ -1,0 +1,148 @@
+header {
+    background-color: #76B55B;
+    height: 60px;
+    margin: -8px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.header-logo {
+    color: #fff;
+    font-size: 25px;
+    margin: 15px 25px;
+}
+
+.header_img {
+    height: 25px;
+    margin: 15px 25px;
+}
+
+.main {
+    height: 370px;
+}
+
+h2 {
+    color: #444444;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    background-color: aqua;
+}
+
+p {
+    color: #444444;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.answer {
+    color: #444444;
+    margin: 70px 0px 30px 0px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+.wrapper{
+    min-height: 100vh;
+    position: relative;/*←相対位置*/
+    padding-bottom: 120px;/*←footerの高さ*/
+    box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+}
+footer {
+    background-color: #008080;
+    height: 110px;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer_index{
+    position: absolute;
+    bottom: 0;
+}
+
+.footer_img {
+    height: 50px;
+    width: 50px;
+    margin: 15px 25px;
+}
+small {
+    margin: 15px 25px;
+    left: 0;
+    bottom: 0;
+}
+
+/* 画面幅の50%の幅で画像を表示 */
+.image-vw1 {
+    width: 65%;
+    bottom: 50px;
+    margin: 10px auto;
+}
+
+.image-vw2 {
+    width: 35%;
+    bottom: 50px;
+    margin: 10px 10px;
+    border: 3px solid #aaa;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1.5fr 1fr 1fr 3fr;
+    grid-template-rows: 180px 100px 80px 120px auto;
+}
+
+.big_item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 9px;
+    border-radius: 8px;
+    border: 3px solid #ccc;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    border: 3px solid #ccc;
+}
+
+.item2 {
+    align-items: center;
+    text-align: center;
+    background: #ddd;
+    padding: 5px;
+    border-radius: 8px;
+    border: 3px solid #ccc;
+    display: inline-block;
+}
+
+.middle{
+    width:50px;
+    height:50px;
+    vertical-align:middle;
+}
+
+ul li {
+    list-style: none;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: left;
+}
+
+.input_wrap {
+    text-align: center;
+}
+
+.face-vw1 {
+    margin: 10px auto;
+}
